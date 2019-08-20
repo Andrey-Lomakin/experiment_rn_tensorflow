@@ -1,0 +1,36 @@
+{
+  "name": "tflow",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "node node_modules/react-native/local-cli/cli.js run-android",
+    "eslint": "node_modules/.bin/eslint ./src",
+    "flow": "node_modules/flow-bin/cli.js ./src",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lodash": "^4.17.14",
+    "react": "16.8.3",
+    "react-native": "0.59",
+    "react-native-camera-tflite": "^0.0.3",
+    "styled-components": "^5.0.0-beta.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/runtime": "^7.5.4",
+    "babel-jest": "^24.8.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.55.0",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
