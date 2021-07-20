@@ -12,7 +12,7 @@
   "dependencies": {
     "lodash": "^4.17.19",
     "react": "16.8.3",
-    "react-native": "0.59",
+    "react-native": "0.62",
     "react-native-camera-tflite": "^0.0.3",
     "styled-components": "^5.0.0-beta.8"
   },
